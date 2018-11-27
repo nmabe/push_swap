@@ -6,9 +6,13 @@ checker : read the instructions and execute them. It checks if Stack A is correc
 Instructions are pre-defined by the subject and are the only reference to measure the performance of both programs during the peer-evaluation. Of course the less, the better. There are 4 types of instructions :
 
 push (pa, pb) : moves the first element of a stack to the beginning of the other one
+
 swap (sa, sb, ss) : swap the two first elements of a stack
+
 rotate (ra, rb, rr) : first element comes last
+
 reverse rotate (rra, rrb, rrr) : last element comes first
+
 The instruction is ignored if the instruction cannot be executed (for instance if the stack is empty).
 
 Allowed functions : write, read, malloc, free, exit
